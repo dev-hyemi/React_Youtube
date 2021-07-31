@@ -1,0 +1,8 @@
+.videoList {
+  max-width: 80rem;
+}
+
+.listBox {
+  display: flex;
+  justify-content: center;
+}
