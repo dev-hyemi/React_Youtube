@@ -3,7 +3,7 @@ import VideoItem from "../video_item/video_item";
 import styels from "./video_list.module.css";
 
 const VideoList = (props) => (
-  <ul>
+  <ul className={styels.videos}>
     {props.videos.map((video) => {
       return <VideoItem key={video.id} video={video} />;
     })}
